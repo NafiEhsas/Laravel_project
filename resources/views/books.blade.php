@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/booksPageStyle.css">
+</head>
+
+<body dir="rtl">
+<header>
+    <div id="logo_container">
+        <img src="/assets/logos/Ehsas Library logo design.png" alt="logo" >
+    </div>
+
+    <div id="search_container">
+        <img src="/assets/icons/search.png" alt="search" dir="rtl">
+        <input type="text" placeholder="کتاب ولټوئ...">
+    </div>
+
+    <div id="buttons_container">
+        <button id="modeBtn">
+            <img src="/assets/headerIcons/sun.png" alt=""  width="18" height="18">
+        </button>
+        <button>
+            <img src="/assets/profile/profile.png" alt=""  width="30" height="30">
+        </button>
+        <button>
+            <a href="login.html">
+                <img src="/assets/icons/logout.png" alt=""  width="30" height="30">
+            </a>
+        </button>
+    </div>
+</header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.php">کور پاڼه</a></li>
+                <li><a href="books.html">کتابونه</a></li>
+                <li><a href="news.html">خبرونه</a></li>
+                <li><a href="instructor.html">لارښود</a></li>
+                <li><a href="visitUs.html">لیدنه وکړئ</a></li>
+                <li><a href="about.html">زموږ په اړه</a></li>
+                  <li><a href="register.html">غړیتوب</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <section id="bookSection">
+            <h1>ددي هفتي تخفیف سوي کتابونه</h1>
+            <div id="books">
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/91nTst7WydL._SL1500_ (1).jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/61deQkvqEhL._SY522_.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/61m3TM09tBL._SL1500_.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/61n426DIpsL.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/71b56YXb2rL._SL1500_.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/81mpSoJzv4L._SL1446_.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/71qs0w7jvWL._SL1500_.jpg" alt=""  >
+                    </a>
+                </div>
+              
+            </div>
+        </section>
+        <section id="bookSection">
+            <h1>ستاسو لپاره سپارښت سوي کتابونه</h1>
+            <div id="books">
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/91nTst7WydL._SL1500_ (1).jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/719rhdkz+iL._SL1500_.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/612lr1Z+hYL.jpg" alt=""  >
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="singleBookPage.html">
+                        
+                        <img src="/assets/books/61m3TM09tBL._SL1500_.jpg" alt=""  >
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+        <section id="bookSection" class="all-books-section">
+    <h1>د کتابونو ټولګه</h1>
+    <div id="allBooks" class="books">     
+           
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/91nTst7WydL._SL1500_ (1).jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+           
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61deQkvqEhL._SY522_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+            
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61m3TM09tBL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+            
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61n426DIpsL.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+               
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/71b56YXb2rL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+          
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/81mpSoJzv4L._SL1446_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+            
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/71qs0w7jvWL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+            
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/91nTst7WydL._SL1500_ (1).jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+          
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61deQkvqEhL._SY522_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+     
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61m3TM09tBL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+       
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61n426DIpsL.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+      
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/71b56YXb2rL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+     
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/81mpSoJzv4L._SL1446_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+    
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/71qs0w7jvWL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+       
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/91nTst7WydL._SL1500_ (1).jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+   
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61deQkvqEhL._SY522_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+    
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61m3TM09tBL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+    
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/61n426DIpsL.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+    
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/71b56YXb2rL._SL1500_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+    
+        
+            <div class="items">
+                <a href="singleBookPage.html">
+                    
+                    <img src="/assets/books/81mpSoJzv4L._SL1446_.jpg" alt="د کتاب انځور">
+                </a>
+            </div>
+        </div>
+        <div class="load-more-container">
+            <p>نور</p>     
+         </div>
+</section>
+
+    </main>
+
+
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-section-about">
+                <h2 class="logo">احساس کتابتون</h2>
+                <p dir="rtl">
+                    احساس کتابتون د زده کړې او پوهې لپاره یو بشپړ ډیجیټل مرکز دی.
+                    تاسو کولی شئ دلته کتابونه، څېړنیزې مقالې او نور مهم مواد ومومئ،
+                    .څو ستاسو د علمي او شخصي پرمختګ ملاتړ وکړي
+
+                </p>
+            </div>
+
+            <div class="socials">
+                <h2>موږ وڅاري</h2>
+                <div>
+                    <a href="https://whatsapp.com"><img src="/assets/logos/whatsapp.png" alt="" width="45" height="45"></a>
+                    <!-- <a href="https://x.com"><img src="/assets/logos/logo-white.png" alt="" width="45" height="45"></a> -->
+                    <a href="https://facebook.com"><img src="/assets/logos/facebook.png" alt="" width="45" height="45"></a>
+                    <a href="https://youtube.com"><img src="/assets/logos/youtube (1).png" alt="" width="45" height="45"></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h2 dir="rtl">اړیکه ونیسي</h2>
+
+                <p dir="rtl"><strong>ایمیل:</strong> <span dir="ltr">ABNE.library@gmail.com</span></p>
+
+                <p dir="rtl"><strong>تماس شمیره:</strong> <span dir="ltr">+93 700 000 000</span></p>
+
+                <p dir="rtl"><strong>ادرس:</strong> کندهار،افغانستان</p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MyLibrary | All Rights Reserved</p>
+        </div>
+    </footer>
+    </body>
+<script src="js/theme.js"></script>
+
+</html>

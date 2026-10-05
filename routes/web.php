@@ -2,10 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return redirect()->route('login');
-});
+// Route::get('/index', function () {
+//     return redirect()->route('index');
+// });
 
-Route::get('auth/login', function () {
-    return view('login');
-})->name('login');
+Route::get('/', function () {
+    return view('index');
+})->name('index');
+
+Route::get('books', function () {
+    return view('books');
+})->name('books');
