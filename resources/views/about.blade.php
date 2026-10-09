@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body dir="rtl">
+<header>
+    <div id="logo_container">
+        <img src="./assets/logos/Ehsas Library logo design.png" alt="logo">
+    </div>
+    <div id="ad_container">
+        <span>یو کتاب رانیسي او په پچه اچونه کي ګډون وکړي</span>
+    </div>
+
+    <div id="buttons_container">
+        <button id="modeBtn">
+            <img src="./assets/headerIcons/sun.png" alt="" width="18" height="18">
+        </button>
+
+        <button>
+            <img src="./assets/profile/profile.png" alt="" width="30" height="30">
+        </button>
+          <button>
+            <a href="login.html">
+                <img src="./assets/icons/logout.png" alt=""  width="30" height="30">
+            </a>
+        </button>
+    </div>
+</header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">کور پاڼه</a></li>
+                <li><a href="books.html">کتابونه</a></li>
+                <li><a href="news.html">خبرونه</a></li>
+                <li><a href="instructor.html">لارښود</a></li>
+                <li><a href="visitUs.html">لیدنه وکړئ</a></li>
+                <li><a href="about.html">زموږ په اړه</a></li>
+                  <li><a href="register.html">غړیتوب</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <main>
+        <section>
+            <div><img src="./assets/herosection3.jpg" alt="" width="100%" height="100%"></div>
+            <div>
+                <h1 dir="rtl">احساس کتابتون</h1>
+                <p dir="rtl">
+                    السلام علیکم ورحمت الله وبرکاته
+                    احساس کتابتون چی اصلي مرکزي څانګه یی په کندهار کي ده د لومړي ځل لپاره په ۱۳۹۸ کال د حمل پر اول تاریخ
+                    تاسیس سول د عبدالنافع احساس په واسطه او س د افغانستان په سطحه یو لوی کتابتون دی چی په ۸ نورو
+                    ولایتونو لکه کابل، هرات، فراه، غزني، ننګرهار، بدخشان، او کونړ کي ځانګي لري او همداسی په زرهاوو
+                    لیدونکي لري، ددی ګتابتون اصلي هدف هیوادوالو او اسلام مبارک دین ته خدمت کول دي
+                    همیشه یی خپل کار په صداقت سره رسولی او هیوادوال او د افغانستان اسلامی امارت لخوا ستایل سوی او انشالله په راتلونکي کی به نور هم هڅه کوو چی خپل خدمات ډیر او پیاوړي کړو
+                </p>
+            </div>
+        </section>
+        <section>
+            <h1>معلومات</h1>
+            <ul dir="rtl">
+                <li>د کتابتون د تاسیس کال: ۱۳۹۸</li>
+                <li>د کتابتون مسوول: عبدالنافع احساس</li>
+                <li>د کتابتون تاسیس کوونکي: عبدالنافع احساس</li>
+                <li>د کتابتون نورو برخو شمیر: ۸</li>
+            </ul>
+        </section>
+        <section>
+            <h1>زموږ خدمات</h1>
+            <ul dir="rtl">
+                <li>په لکاوو کتابونه</li>
+                <li>د پور ورکولو خدمات</li>
+                <li>د کتابونو د خرڅولو خدمات</li>
+                <li>ستاسو تر ادرسه پوری کتابونه رسول</li>
+                <li>د کتابتون د غړیتوب په صورت کي ۳۰ فیصده تخفیف</li>
+                <li>منظم چاپیریا</li>
+                <li>او نور</li>
+            </ul>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-section-about">
+                <h2 class="logo">احساس کتابتون</h2>
+                <p dir="rtl">
+                    احساس کتابتون د زده کړې او پوهې لپاره یو بشپړ ډیجیټل مرکز دی.
+                    تاسو کولی شئ دلته کتابونه، څېړنیزې مقالې او نور مهم مواد ومومئ،
+                    .څو ستاسو د علمي او شخصي پرمختګ ملاتړ وکړي
+
+                </p>
+            </div>
+
+            <div class="socials">
+                <h2>موږ وڅاري</h2>
+                <div>
+                    <a href="https://whatsapp.com"><img src="./assets/logos/whatsapp.png" alt="" width="45" height="45"></a>
+                    <!-- <a href="https://x.com"><img src="./assets/logos/logo-white.png" alt="" width="45" height="45"></a> -->
+                    <a href="https://facebook.com"><img src="./assets/logos/facebook.png" alt="" width="45" height="45"></a>
+                    <a href="https://youtube.com"><img src="./assets/logos/youtube (1).png" alt="" width="45" height="45"></a>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-section">
+                <h2 dir="rtl">اړیکه ونیسي</h2>
+
+                <p dir="rtl"><strong>ایمیل:</strong> <span dir="ltr">ABNE.library@gmail.com</span></p>
+
+                <p dir="rtl"><strong>تماس شمیره:</strong> <span dir="ltr">+93 700 000 000</span></p>
+
+                <p dir="rtl"><strong>ادرس:</strong> کندهار،افغانستان</p>
+
+                <!-- Social -->
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>© 2026 MyLibrary | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+<script src="theme.js"></script>
+
+</html>

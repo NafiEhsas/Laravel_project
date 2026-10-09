@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+
+<body dir="rtl">
+<header>
+    <div id="logo_container">
+        <img src="./assets/logos/Ehsas Library logo design.png" alt="logo">
+    </div>
+    <div id="ad_container">
+        <span>یو کتاب رانیسي او په پچه اچونه کي ګډون وکړي</span>
+    </div>
+
+    <div id="buttons_container">
+        <button id="modeBtn">
+            <img src="./assets/headerIcons/sun.png" alt="" width="18" height="18">
+        </button>
+
+        <button>
+            <img src="./assets/profile/profile.png" alt="" width="30" height="30">
+        </button>
+          <button>
+            <a href="login.html">
+                <img src="./assets/icons/logout.png" alt=""  width="30" height="30">
+            </a>
+        </button>
+    </div>
+</header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">کور پاڼه</a></li>
+                <li><a href="books.html">کتابونه</a></li>
+                <li><a href="news.html">خبرونه</a></li>
+                <li><a href="instructor.html">لارښود</a></li>
+                <li><a href="visitUs.html">لیدنه وکړئ</a></li>
+                <li><a href="about.html">زموږ په اړه</a></li>
+                  <li><a href="register.html">غړیتوب</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="news-card">
+            <img src="./assets/herosection2.jpg" alt="د خبر انځور" class="news-img">
+            <div class="news-content">
+               
+                <h3 class="news-title">د احساس کتابتون نوی څانګه پرانیستل شول</h3>
+                <div class="news-meta">
+                    <span class="news-date"> ۲۴ د ثور ۱۴۰۵</span>
+                </div>
+        <p class="news-description" dir="rtl">
+        دا چي زموږ مشتریان ډیر دی نو غوره مو وګڼل چي د ګرانو هیوادوالو لياره نوي څانګه په نور بزنس سنټر کي جوړه کړو    
+        </p>
+        <a href="#" class="read-more-btn">نور ولولئ ←</a>
+    </div>
+
+</div>
+        <div class="news-card">
+            <img src="./assets/herosection3.jpg" alt="د خبر انځور" class="news-img">
+            <div class="news-content">
+               
+                <h3 class="news-title">د احساس کتابتون لخوا د زړو کتابونو رانیول</h3>
+                <div class="news-meta">
+                    <span class="news-date"> ۲۴ د ثور ۱۴۰۵</span>
+                </div>
+        <p class="news-description" dir="rtl">
+اوس تاسو کولای سی خپل د کور کتابونه چي ویل کیږی نه او ځای یی نیولی وی موږ یی له تاسو په مناسب قیمت غواړو    
+        </p>
+        <a href="#" class="read-more-btn">نور ولولئ ←</a>
+    </div>
+</div>
+
+</div>
+        <div class="news-card">
+            <img src="./assets/shutterstock_209058313.jpg" alt="د خبر انځور" class="news-img">
+            <div class="news-content">
+               
+                <h3 class="news-title">د احساس کتابتون نوی قرارداد</h3>
+                <div class="news-meta">
+                    <span class="news-date"> ۲۴ د ثور ۱۴۰۵</span>
+                </div>
+        <p class="news-description" dir="rtl">
+موږ ویاړو چي د چین هیواد سره مو د نوي ۱۰۰۰۰ کتابونو نوی قرارداد وکړي
+        </p>
+        <a href="#" class="read-more-btn">نور ولولئ ←</a>
+    </div>
+</div>
+       
+</main>
+
+
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-section-about">
+                <h2 class="logo">احساس کتابتون</h2>
+                <p dir="rtl">
+                    احساس کتابتون د زده کړې او پوهې لپاره یو بشپړ ډیجیټل مرکز دی.
+                    تاسو کولی شئ دلته کتابونه، څېړنیزې مقالې او نور مهم مواد ومومئ،
+                    .څو ستاسو د علمي او شخصي پرمختګ ملاتړ وکړي
+
+                </p>
+            </div>
+
+            <div class="socials">
+                <h2>موږ وڅاري</h2>
+               <div>
+                    <a href="https://whatsapp.com"><img src="./assets/logos/whatsapp.png" alt="" width="45" height="45"></a>
+                    <!-- <a href="https://x.com"><img src="./assets/logos/logo-white.png" alt="" width="45" height="45"></a> -->
+                    <a href="https://facebook.com"><img src="./assets/logos/facebook.png" alt="" width="45" height="45"></a>
+                    <a href="https://youtube.com"><img src="./assets/logos/youtube (1).png" alt="" width="45" height="45"></a>
+                </div>
+            </div>
+
+         
+            <div class="footer-section">
+                <h2 dir="rtl">اړیکه ونیسي</h2>
+
+                <p dir="rtl"><strong>ایمیل:</strong> <span dir="ltr">ABNE.library@gmail.com</span></p>
+
+                <p dir="rtl"><strong>تماس شمیره:</strong> <span dir="ltr">+93 700 000 000</span></p>
+
+                <p dir="rtl"><strong>ادرس:</strong> کندهار،افغانستان</p>
+
+              
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MyLibrary | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+<script src="theme.js"></script>
+
+</html>

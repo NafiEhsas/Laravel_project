@@ -1,0 +1,227 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f6fb;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 35px auto;
+}
+
+/* Navigation */
+.navbar {
+    background: #142d4e;
+    color: white;
+    padding: 16px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Headings */
+h1, h2 {
+    color: #17365d;
+}
+
+.page-heading {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-top: 0;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+    margin-top: 22px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.btn-success {
+    background: #15966a;
+    color: white;
+}
+
+.btn-secondary {
+    background: #e8eef6;
+    color: #17365d;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Tables */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    padding: 13px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    white-space: nowrap;
+}
+
+th {
+    background: #edf3fa;
+    color: #17365d;
+    font-size: 13px;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+}
+
+.actions {
+    display: flex;
+    gap: 7px;
+}
+
+/* Forms */
+.form-card {
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #334155;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+    background: white;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Book details */
+.detail-list {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 14px;
+}
+
+.detail-label {
+    font-weight: bold;
+    color: #17365d;
+}
+
+/* Footer */
+.footer {
+    margin-top: 45px;
+    padding: 18px;
+    text-align: center;
+    background: #142d4e;
+    color: white;
+    font-size: 13px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+    }
+
+    .card {
+        padding: 17px;
+    }
+
+    .nav-links {
+        gap: 13px;
+    }
+
+    .detail-list {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}

@@ -93,7 +93,7 @@
                 </li>
 
                 <li>
-                    <a href="/about.php">
+                    <a href="about">
                         زموږ په اړه
                     </a>
                 </li>

@@ -43,7 +43,7 @@
                 <li><a href="news.html">خبرونه</a></li>
                 <li><a href="instructor.html">لارښود</a></li>
                 <li><a href="visitUs.html">لیدنه وکړئ</a></li>
-                <li><a href="about.html">زموږ په اړه</a></li>
+                <li><a href="about">زموږ په اړه</a></li>
                   <li><a href="register.html">غړیتوب</a></li>
             </ul>
         </div>
